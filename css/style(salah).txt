@@ -1,0 +1,106 @@
+header {
+    display: flex;
+    position: relative;
+    height: 660px;
+    width: 100%;
+    background-color: #FFD1D1;
+    flex-direction: column;
+    padding: 30px;
+
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+}
+nav > .namadia {
+    font-size: 20px;
+    color: #DB5F5F;
+}
+header > nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+.btn {
+    padding: 10px;
+    border-radius: 50px;
+    border-color: transparent;
+    color: white;
+    background-color: #DB5F5F;
+}
+.tulisanheader {
+    display: flex;
+    position: absolute;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: -8px;
+    top: 125px;
+    left: 50%;
+    transform:translateX(-50%);
+    color: #F7A1A1;
+    justify-content:center;
+    align-items:center;
+    z-index: 1;
+}
+.img {
+    position: absolute;
+    max-width: 400px;
+    height: 579px;
+    justify-content:center;
+    align-items:center;
+    left: 50%;
+    transform:translateX(-50%);
+    bottom: 0;
+    z-index: 2;
+}
+
+
+.nama {
+    max-width: 300px;
+    padding: 15px;
+    margin-top: 140px;
+    z-index: 3;
+}
+.namaband {
+    font-size: 15px;
+    max-width: 180px;
+    width: 100%;
+    color: #DB5F5F;
+    border-radius: 50px;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+.namaorang {
+    font-size: 45px;
+    color: #DB5F5F;
+}
+.nama > p {
+    margin-top: 5px;
+}
+.btnheader {
+    margin-top: 20px;
+}
+.btnheader > .btnputihdiheader {
+    padding: 10px;
+    border-radius: 50px;
+    border-color: #DB5F5F;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.shape {
+    position: absolute;
+    width: 100%;
+    height: 980px;
+    bottom: 0;
+    clip-path: polygon(100% 81%, 0 100%, 100% 100%);
+    background-color: #F7A1A1;
+    z-index: 1;
+}
